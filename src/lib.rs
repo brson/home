@@ -67,6 +67,11 @@ pub fn home_dir() -> Option<PathBuf> {
 #[cfg(windows)]
 use windows::home_dir_inner;
 
+#[cfg(target_os = "wasi")]
+fn home_dir_inner() -> Option<PathBuf> {
+    env::var_os("HOME").map(PathBuf::from)
+}
+
 #[cfg(any(unix, target_os = "redox"))]
 fn home_dir_inner() -> Option<PathBuf> {
     #[allow(deprecated)]
