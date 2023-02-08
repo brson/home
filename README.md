@@ -1,6 +1,10 @@
 [![Documentation](https://docs.rs/home/badge.svg)](https://docs.rs/home)
 [![Crates.io](https://img.shields.io/crates/v/home.svg)](https://crates.io/crates/home)
 
+__NOTE:__ This repository has been moved into [rust-lang/cargo].
+
+[rust-lang/cargo]: https://github.com/rust-lang/cargo/tree/master/crates/home
+
 Canonical definitions of `home_dir`, `cargo_home`, and `rustup_home`.
 
 This provides the definition of `home_dir` used by Cargo and rustup,
