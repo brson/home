@@ -3,7 +3,7 @@
 
 __NOTE:__ This repository has been moved into [rust-lang/cargo].
 
-[cargo]: https://github.com/rust-lang/cargo/tree/master/crates/home
+[rust-lang/cargo]: https://github.com/rust-lang/cargo/tree/master/crates/home
 
 Canonical definitions of `home_dir`, `cargo_home`, and `rustup_home`.
 
